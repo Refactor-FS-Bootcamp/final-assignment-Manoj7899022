@@ -1,0 +1,83 @@
+.mail__containerTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(126, 120, 120, 0.643);
+    /* background-color: rgba(255, 255, 255, 0.643); */
+}
+.mail{
+    flex:0.99;
+    border-right: 2px solid rgba(98, 98, 98);
+}
+.mail > .MuiSvgIcon-root {
+    margin-left: 10px;
+    color: rgba(0,0, 0);
+    /* color: black; */
+}
+.mailTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    /* color: rgba(255, 255, 255, 0.643); */
+}
+.mailTop > .MuiSvgIcon-root{
+    margin-left:7px;
+    color: rgba(255, 255, 255, 0.643);
+    
+}
+.mailTopRight{
+    display: flex;
+}
+.mailTopRight > .MuiSvgIcon-root{
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.643);
+    /* color: black; */
+}
+.mail__containerMid{
+    display: flex;
+    background-color: #251a1a;
+    /* background-color: #333; */
+    /* border-bottom: 1px solid #aaa; */
+}
+.mail__containerMidOption{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+.mail__containerMid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:15px ;
+    padding-right:15px ;
+}
+.mail__containerMidOption:hover{
+    background-color: #444;
+}
+.mail__containerMidOption:hover > h3{
+    color: white;
+}
+.mail__containerMidOption > h3 {
+    color: #ccc;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.mail__containerMidOption:hover > .MuiSvgIcon-root{
+    color: white;
+}
+.mail__containerMidOption > .MuiSvgIcon-root{
+    color: rgba(255, 255, 255, 0.643);
+}
+.mail__containerMain{
+    overflow: scroll;
+    -ms-overflow-style: none;
+}
+.mail__containerMain::-webkit-scrollbar{
+    display: none;
+}
+
